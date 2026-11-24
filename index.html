@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bernardo Veloso Aires · Engineering Portfolio for JPMorganChase</title>
+<meta name="description" content="Engineering portfolio of Bernardo Veloso Aires, B.S. Electrical Engineering, University of Florida (May 2027): data, AI tooling and quantitative analysis for JPMorganChase.">
+<style>
+  :root {
+    --bg: #060A10;
+    --panel: #0C141D;
+    --line: #1C2B3A;
+    --text: #E8F0F7;
+    --muted: #8DA2B5;
+    --blue: #2BA4FF;
+    --cyan: #62E3FF;
+    --amber: #FFB547;
+  }
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font: 16px/1.55 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  }
+  .wrap { max-width: 1200px; margin: 0 auto; padding: 0 24px; }
+  header.wrap { padding: 56px 24px 32px; }
+  .eyebrow {
+    display: inline-block;
+    font: 700 12px/1 "Courier New", monospace;
+    letter-spacing: .22em;
+    text-transform: uppercase;
+    color: var(--bg);
+    background: var(--blue);
+    padding: 8px 14px;
+  }
+  h1 {
+    margin: 22px 0 8px;
+    font-size: clamp(36px, 6vw, 64px);
+    line-height: 1.02;
+    letter-spacing: -.01em;
+    font-weight: 800;
+  }
+  h1 span { color: var(--cyan); }
+  .lede { color: var(--muted); font-size: 18px; max-width: 760px; margin: 0 0 24px; }
+  .lede strong { color: var(--text); font-weight: 600; }
+  .stats { display: flex; flex-wrap: wrap; gap: 28px; margin: 0 0 28px; padding: 0; list-style: none; }
+  .stats li { border-left: 2px solid var(--blue); padding-left: 14px; }
+  .stats b { display: block; font-size: 26px; line-height: 1.1; }
+  .stats small { color: var(--muted); font-size: 13px; }
+  .actions { display: flex; flex-wrap: wrap; gap: 12px; }
+  .btn {
+    display: inline-flex; align-items: center; gap: 8px;
+    padding: 11px 18px;
+    border: 1px solid var(--line);
+    background: var(--panel);
+    color: var(--text);
+    text-decoration: none;
+    font-weight: 600; font-size: 15px;
+    border-radius: 6px;
+    transition: border-color .15s, color .15s;
+  }
+  .btn:hover, .btn:focus-visible { border-color: var(--cyan); color: var(--cyan); }
+  .btn.primary { background: var(--blue); border-color: var(--blue); color: #04101C; }
+  .btn.primary:hover, .btn.primary:focus-visible { background: var(--cyan); border-color: var(--cyan); color: #04101C; }
+  nav.toc {
+    position: sticky; top: 0; z-index: 2;
+    background: rgba(6, 10, 16, .92);
+    backdrop-filter: blur(6px);
+    border-top: 1px solid var(--line);
+    border-bottom: 1px solid var(--line);
+  }
+  nav.toc .wrap { display: flex; gap: 6px; overflow-x: auto; padding-top: 10px; padding-bottom: 10px; scrollbar-width: thin; }
+  nav.toc a {
+    flex: 0 0 auto;
+    font: 12px/1 "Courier New", monospace; letter-spacing: .08em; text-transform: uppercase;
+    color: var(--muted); text-decoration: none;
+    padding: 8px 10px; border: 1px solid var(--line); border-radius: 4px;
+  }
+  nav.toc a:hover, nav.toc a:focus-visible { color: var(--amber); border-color: var(--amber); }
+  main.wrap { padding: 32px 24px 24px; }
+  figure { margin: 0 0 28px; scroll-margin-top: 64px; }
+  figure img {
+    display: block; width: 100%; height: auto;
+    border: 1px solid var(--line); border-radius: 8px;
+    background: var(--panel);
+    aspect-ratio: 16 / 9;
+  }
+  figcaption {
+    margin-top: 8px;
+    font: 12px/1.4 "Courier New", monospace; letter-spacing: .08em; text-transform: uppercase;
+    color: var(--muted);
+  }
+  footer.wrap { border-top: 1px solid var(--line); padding: 28px 24px 48px; color: var(--muted); font-size: 14px; }
+  @media (max-width: 520px) {
+    header.wrap { padding-top: 36px; }
+    .eyebrow { font-size: 10px; letter-spacing: .12em; }
+    .stats { gap: 18px; }
+    .stats li { flex: 1 1 40%; }
+  }
+  footer a { color: var(--cyan); }
+</style>
+</head>
+<body>
+<header class="wrap">
+  <span class="eyebrow">Engineering portfolio · JPMorganChase</span>
+  <h1>Bernardo<br><span>Veloso Aires</span></h1>
+  <p class="lede">B.S. Electrical Engineering, University of Florida, May 2027. <strong>I turn physical signals into reliable data, build AI tools and check what they produce, and bring the quantitative judgment of engineering to finance.</strong></p>
+  <ul class="stats">
+    <li><b>3.97</b><small>GPA · University of Florida</small></li>
+    <li><b>3</b><small>languages · English, Spanish, Portuguese</small></li>
+    <li><b>May 2027</b><small>graduation</small></li>
+  </ul>
+  <div class="actions">
+    <a class="btn primary" href="Bernardo_Veloso_Aires_Portfolio_JPMorgan.pdf" download>Download PDF</a>
+    <a class="btn" href="Bernardo_Veloso_Aires_Portfolio_JPMorgan.pptx" download>Download PowerPoint</a>
+    <a class="btn" href="mailto:bernardo.v.aires@gmail.com">Email</a>
+    <a class="btn" href="https://www.linkedin.com/in/bernardo-veloso-aires-041405272" target="_blank" rel="noopener">LinkedIn</a>
+  </div>
+</header>
+
+<nav class="toc" aria-label="Portfolio sections">
+  <div class="wrap">
+    <a href="#s3">Why JPMorgan</a>
+    <a href="#s5">Viavi · AI tooling</a>
+    <a href="#s7">Solar Gators</a>
+    <a href="#s10">Wearables &amp; IoT</a>
+    <a href="#s13">Simulation &amp; research</a>
+    <a href="#s16">Circuits &amp; leadership</a>
+    <a href="#s19">Skills &amp; education</a>
+    <a href="#s20">Contact</a>
+  </div>
+</nav>
+
+<main class="wrap" id="slides"></main>
+
+<footer class="wrap">
+  Bernardo Veloso Aires · <a href="mailto:bernardo.v.aires@gmail.com">bernardo.v.aires@gmail.com</a> ·
+  <a href="https://www.linkedin.com/in/bernardo-veloso-aires-041405272" target="_blank" rel="noopener">LinkedIn</a>
+</footer>
+
+<script>
+  const slides = [
+    "Cover: Bernardo Veloso Aires, engineering portfolio for JPMorganChase",
+    "About: an engineer's lens on finance",
+    "What my engineering brings to JPMorgan",
+    "Section 01: Internship",
+    "AI-driven FDTD simulation with MEEP, Viavi Solutions",
+    "Section 02: Solar Gators",
+    "Strain data acquisition board",
+    "Two-channel battery tester",
+    "Section 03: Wearables and IoT",
+    "Sweatband biosensing wearable",
+    "PulseLine IoT monitoring network",
+    "Section 04: Simulation and research",
+    "Microring resonator accelerometer",
+    "Formula SAE aerodynamics study",
+    "Section 05: Circuits and leadership",
+    "Multi-stage audio amplifier",
+    "Florida Engineering Society chapter",
+    "Section 06: Skills and education",
+    "Tools and education",
+    "Contact"
+  ];
+  const main = document.getElementById("slides");
+  slides.forEach((title, i) => {
+    const n = String(i + 1).padStart(2, "0");
+    const fig = document.createElement("figure");
+    fig.id = "s" + (i + 1);
+    const img = document.createElement("img");
+    img.src = "slide-" + n + ".jpg";
+    img.alt = "Slide " + (i + 1) + ": " + title;
+    img.width = 1600; img.height = 900;
+    img.loading = i < 2 ? "eager" : "lazy";
+    img.decoding = "async";
+    const cap = document.createElement("figcaption");
+    cap.textContent = n + " · " + title;
+    fig.append(img, cap);
+    main.append(fig);
+  });
+</script>
+</body>
+</html>
